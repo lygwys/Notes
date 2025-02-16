@@ -19,7 +19,7 @@ internal class AboutViewModel
 
     public string Blog => "https://lygwys.github.io/";
 
-    public string Reward => "https://s21.ax1x.com/2025/02/16/pEKHQPO.jpg";
+    public string Reward => "http://m.qpic.cn/psc?/V510qy3o2Pw3Iu3ZXbES352K6J3MkfG7/LiySpxowE0yeWXwBdXN*SYHOk*GVlVvqAVMV4dfQJ2pz0rnQfcnuOxqmXL2nkLqKcxAisbZXnMpmix6mpnHa8r82khXDDwR*ItWMfv0aLxg!/mnull&bo=bQOpBG0DqQQBByA!&rf=photolist&t=5";
 
     public ICommand ShowMoreInfoCommand { get; }
     public ICommand ShowBlogCommand { get; }
