@@ -34,7 +34,7 @@
             <Button Grid.Column="0" Text="Reward" Command="{Binding ShowRewardCommand} " />
         </Grid>
 
-        <Label Text="如果仅有手机可以这样操作：1.保存二维码至相册 2.微信扫一扫 3.点“相册”选择刚保存的图片" />
+        <Label Text="如果仅有手机可以这样操作：1.保存二维码至相册 2.微信扫一扫 3.点“相册”选择刚保存的二维码图片" />
 
     </VerticalStackLayout>
 </ContentPage>
