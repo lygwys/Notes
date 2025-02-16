@@ -17,25 +17,26 @@
 
         <Label Text="{Binding Message}" />
 
-        <Label Text="功能简单，列表、新建(Add/+)、编辑、保存（Save）、删除(Delete)." />
+        <Label Text="功能简单，仅列表、新建(Add/+)、编辑、保存（Save）、删除(Delete)." />
 
         <Label Text="纯净，无广告，未要求任何权限，源码公开." />
 
-        <Label Text="如果觉得不错，请微信打赏，码是老伴的，曾为她画饼，要退休了总算有时间圆此承诺." />
 
+        <Grid ColumnDefinitions="*,*,*,*,*" ColumnSpacing="10">
+            <Button Grid.Column="0" Text="源码" Command="{Binding ShowMoreInfoCommand}" />
+            <Button Grid.Column="1" Text="Blog" Command="{Binding ShowBlogCommand}" />
+        </Grid>
+
+        <Label Text="如果觉得这个应用还不错，可以 'Reward' 微信打赏给老伴，最好金额含小数或备注一下，在此感谢您的肯定！" />
         
 
-        <FlexLayout JustifyContent="Center"  
-           AlignContent="Center">
-           <Image Source="lan.jpg"
-           Aspect="AspectFit"
-           WidthRequest="280" 
-           HeightRequest="300"/>
-        </FlexLayout>
+        <Grid ColumnDefinitions="*,*,*,*,*" ColumnSpacing="10">
+            <Button Grid.Column="0" Text="Reward" Command="{Binding ShowRewardCommand} " />
+        </Grid>
 
-        <Label Text="手机打赏操作步骤：1.保存二维码图片　2.点击微信“扫一扫”　3.点击右下角“相册”， 选择刚保存的图片" />
-
-        <Button Text="源码：https://github.com/lygwys/Notes" Command="{Binding ShowMoreInfoCommand}" />
+        <Label Text="如果仅有手机可以这样：1.保存二维码至相册 2.微信扫一扫 3.点“相册”选择刚保存的图片" />
 
     </VerticalStackLayout>
 </ContentPage>
+
+
