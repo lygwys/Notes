@@ -69,6 +69,7 @@
 	  <ApplicationId>io.github.lygwys.notes</ApplicationId>
 	  <ApplicationDisplayVersion>1.1</ApplicationDisplayVersion>
 	  <ApplicationTitle>Notes</ApplicationTitle>
+	  <AndroidPackageFormat>apk</AndroidPackageFormat>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-ios|AnyCPU'">

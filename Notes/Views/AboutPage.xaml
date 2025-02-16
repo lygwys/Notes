@@ -22,19 +22,19 @@
         <Label Text="纯净，无广告，未要求任何权限，源码公开." />
 
 
-        <Grid ColumnDefinitions="*,*,*,*,*" ColumnSpacing="10">
+        <Grid ColumnDefinitions="*,*" ColumnSpacing="20">
             <Button Grid.Column="0" Text="源码" Command="{Binding ShowMoreInfoCommand}" />
             <Button Grid.Column="1" Text="Blog" Command="{Binding ShowBlogCommand}" />
         </Grid>
 
-        <Label Text="如果觉得这个应用还不错，可以 'Reward' 微信打赏给老伴，最好金额含小数或备注一下，在此感谢您的肯定！" />
+        <Label Text="如果觉得这个应用还不错，可以 'Reward' 微信扫码打赏给老伴，最好金额含小数或备注一下，在此感谢您的肯定！" />
         
 
-        <Grid ColumnDefinitions="*,*,*,*,*" ColumnSpacing="10">
+        <Grid ColumnDefinitions="*,*" ColumnSpacing="20">
             <Button Grid.Column="0" Text="Reward" Command="{Binding ShowRewardCommand} " />
         </Grid>
 
-        <Label Text="如果仅有手机可以这样：1.保存二维码至相册 2.微信扫一扫 3.点“相册”选择刚保存的图片" />
+        <Label Text="如果仅有手机可以这样操作：1.保存二维码至相册 2.微信扫一扫 3.点“相册”选择刚保存的图片" />
 
     </VerticalStackLayout>
 </ContentPage>
