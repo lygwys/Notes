@@ -43,51 +43,67 @@
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0-android|AnyCPU'">
 	  <ApplicationId>io.github.lygwys.notes</ApplicationId>
-	  <ApplicationDisplayVersion>1.1</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>1.2</ApplicationDisplayVersion>
 	  <ApplicationTitle>Notes</ApplicationTitle>
+	  <ApplicationIdGuid>ADE89B04-FE18-4409-9AE2-B94901E71A89</ApplicationIdGuid>
+	  <ApplicationVersion>1.2</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0-ios|AnyCPU'">
 	  <ApplicationId>io.github.lygwys.notes</ApplicationId>
-	  <ApplicationDisplayVersion>1.1</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>1.2</ApplicationDisplayVersion>
 	  <ApplicationTitle>Notes</ApplicationTitle>
+	  <ApplicationIdGuid>ADE89B04-FE18-4409-9AE2-B94901E71A89</ApplicationIdGuid>
+	  <ApplicationVersion>1.2</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0-maccatalyst|AnyCPU'">
 	  <ApplicationId>io.github.lygwys.notes</ApplicationId>
-	  <ApplicationDisplayVersion>1.1</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>1.2</ApplicationDisplayVersion>
 	  <ApplicationTitle>Notes</ApplicationTitle>
+	  <ApplicationIdGuid>ADE89B04-FE18-4409-9AE2-B94901E71A89</ApplicationIdGuid>
+	  <ApplicationVersion>1.2</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0-windows10.0.19041.0|AnyCPU'">
 	  <ApplicationId>io.github.lygwys.notes</ApplicationId>
-	  <ApplicationDisplayVersion>1.1</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>1.2</ApplicationDisplayVersion>
 	  <ApplicationTitle>Notes</ApplicationTitle>
+	  <ApplicationIdGuid>ADE89B04-FE18-4409-9AE2-B94901E71A89</ApplicationIdGuid>
+	  <ApplicationVersion>1.2</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-android|AnyCPU'">
 	  <ApplicationId>io.github.lygwys.notes</ApplicationId>
-	  <ApplicationDisplayVersion>1.1</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>1.2</ApplicationDisplayVersion>
 	  <ApplicationTitle>Notes</ApplicationTitle>
 	  <AndroidPackageFormat>apk</AndroidPackageFormat>
+	  <ApplicationIdGuid>ADE89B04-FE18-4409-9AE2-B94901E71A89</ApplicationIdGuid>
+	  <ApplicationVersion>1.2</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-ios|AnyCPU'">
 	  <ApplicationId>io.github.lygwys.notes</ApplicationId>
-	  <ApplicationDisplayVersion>1.1</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>1.2</ApplicationDisplayVersion>
 	  <ApplicationTitle>Notes</ApplicationTitle>
+	  <ApplicationIdGuid>ADE89B04-FE18-4409-9AE2-B94901E71A89</ApplicationIdGuid>
+	  <ApplicationVersion>1.2</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-maccatalyst|AnyCPU'">
 	  <ApplicationId>io.github.lygwys.notes</ApplicationId>
-	  <ApplicationDisplayVersion>1.1</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>1.2</ApplicationDisplayVersion>
 	  <ApplicationTitle>Notes</ApplicationTitle>
+	  <ApplicationIdGuid>ADE89B04-FE18-4409-9AE2-B94901E71A89</ApplicationIdGuid>
+	  <ApplicationVersion>1.2</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-windows10.0.19041.0|AnyCPU'">
 	  <ApplicationId>io.github.lygwys.notes</ApplicationId>
-	  <ApplicationDisplayVersion>1.1</ApplicationDisplayVersion>
+	  <ApplicationDisplayVersion>1.2</ApplicationDisplayVersion>
 	  <ApplicationTitle>Notes</ApplicationTitle>
+	  <ApplicationIdGuid>ADE89B04-FE18-4409-9AE2-B94901E71A89</ApplicationIdGuid>
+	  <ApplicationVersion>1.2</ApplicationVersion>
 	</PropertyGroup>
 
 
