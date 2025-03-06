@@ -10,7 +10,7 @@
     </ContentPage.BindingContext>
     <!-- Add an item to the toolbar -->
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add" Command="{Binding NewCommand}" IconImageSource="{FontImage Glyph='+', Color=Black, Size=28}" />
+        <ToolbarItem Text="新建" Command="{Binding NewCommand}" IconImageSource="{FontImage Glyph='+', Color=Black, Size=28}" />
     </ContentPage.ToolbarItems>
 
     <!-- Display notes in a list -->

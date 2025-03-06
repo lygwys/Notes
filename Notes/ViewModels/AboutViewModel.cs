@@ -15,7 +15,7 @@ internal class AboutViewModel
     public string Title => AppInfo.Name;
     public string Version => AppInfo.VersionString;
     public string MoreInfoUrl => "https://github.com/lygwys/Notes";
-    public string Message => "此便笺（Notes by lygwys）是学习 .NET MAUI 的一个练习.";
+    public string Message => "";
 
     public string Blog => "https://lygwys.github.io/";
 
