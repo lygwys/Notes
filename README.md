@@ -12,6 +12,6 @@
 
 ### 功能截图
 
-![首页](Notes/docs/screenshots/Weixin Image_20250307113708.png)
+![首页](Notes/docs/screenshots/Weixin_Image_20250307113708.png)
 
-![新建、编辑](Notes/docs/screenshots/Weixin Image_20250307113724.png)
+![新建、编辑](Notes/docs/screenshots/Weixin_Image_20250307113724.png)
