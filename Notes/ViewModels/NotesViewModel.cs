@@ -1,5 +1,4 @@
 ﻿using CommunityToolkit.Mvvm.Input;
-using Notes.Models;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 
@@ -51,7 +50,7 @@ internal class NotesViewModel : IQueryAttributable
                 matchedNote.Reload();
                 AllNotes.Move(AllNotes.IndexOf(matchedNote), 0);
             }
-             
+
 
             // If note isn't found, it's new; add it.
             else
