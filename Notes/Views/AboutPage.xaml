@@ -21,7 +21,7 @@
 
         <Label Text="此便笺（Notes by Lygwys）功能简洁，仅列表、新建(+)、编辑、保存、删除." />
 
-        <Label Text="纯净，无广告，未要求任何权限，源码公开." />
+        <Label Text="纯净，无广告，源码公开." />
 
 
         <Grid ColumnDefinitions="*,*" ColumnSpacing="20">
