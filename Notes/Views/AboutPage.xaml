@@ -31,12 +31,12 @@
 
             <Label></Label>
 
-            <Label Text="觉得这个应用还不错，可以微信扫码打赏." />
-            <Label Text="【如果仅有手机可以先保存二维码至相册，再微信扫一扫，点“相册”，选中二维码图片】" />
+            <Label Text="觉得这个应用还不错，可以微信打赏." />
+            <Label Text="操作步骤：先长按二维码图片，点“保存图片”，再微信扫一扫，点“相册”，点此图片，输入打赏金额，点“付款”." />
 
 
             <Grid ColumnDefinitions="*,*" ColumnSpacing="20">
-                <Button Grid.Column="0" Text="♥微信打赏♥" Command="{Binding ShowRewardCommand} " />
+                <Button Grid.Column="0" Text="♥微信打赏" Command="{Binding ShowRewardCommand} " />
         </Grid>
 
         <Label Text="" />
